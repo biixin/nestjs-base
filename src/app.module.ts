@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
-import { DatabaseModule } from './modules/user/infra/database.module';
-import { HttpModule } from './modules/user/user.module';
+import { DatabaseModule } from './modules/database.module';
+import { HttpModule } from './modules/user.module';
+
 
 
 @Module({
